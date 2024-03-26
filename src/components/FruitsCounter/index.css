@@ -1,0 +1,53 @@
+/* Write your CSS here */
+* {
+  margin: 0;
+}
+h1 {
+  padding: 25px;
+}
+.bg-container {
+  background-color: #ffd569;
+  height: 100vh;
+  width: auto;
+  padding: 55px;
+}
+.container {
+  background-color: #ffffff;
+  padding: 35px;
+  height: 100%;
+  border-radius: 10px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.fruit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.fruits-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: auto;
+}
+
+.fruit {
+  height: 180px;
+  width: auto;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 2px;
+  border-width: 0;
+  height: 25px;
+  margin: 15px;
+  width: auto;
+  align-self: center;
+  margin-left: 50px;
+}
